@@ -10,8 +10,8 @@ class Stack:
        
 
     def is_full(self):
-        if len(self.items) == slef.size:
-            return True
+        if len(self.items) == self.size:
+           return True
 
     def push(self, data):
         if not self.is_full():
